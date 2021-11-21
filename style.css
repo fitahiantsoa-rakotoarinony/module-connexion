@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* style header*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(211, 192, 192);
+    align-items: center;
+    box-shadow: 41px 41px 82px antiquewhite, -41px -41px 82px rgb(206, 188, 188);
+  }
+  
+  .menu {
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    height: 60px;
+    width: 78px;
+    border: white;
+    background-color: rgb(218, 204, 204);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(154, 189, 204);
+    color: #ffffff;
+    box-shadow: 41px 41px 82px antiquewhite, -41px -41px 82px #ffffff;
+  }
+  /* style formulaire*/
+  .sectionclass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    height: 850px;
+    background-color: #e0e0e0;
+    padding-top: 70px;
+  }
+  /* style formulaire-connexion*/
+  .formconnex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 480px;
+    
+    background: #e0e0e0;
+    box-shadow: 41px 41px 82px antiquewhite, -41px -41px 82px #ffffff;
+  }
+  .el {
+    padding: 40px;
+  }
+  .inputclass {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+   
+    background-color: rgb(92, 161, 194);
+  }
+  .submitclass {
+    height: 40px;
+    width: 250px;
+    
+    background-color: rgb(40, 161, 241);
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .inputclass:hover {
+    background-color: whitesmoke;
+  }
+  .submitclass:hover {
+    background-color: rgb(161, 236, 199);
+    color: black;
+  }
+  
+  /* style formulaire-inscription*/
+  
+  .forminscrip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 570px;
+   
+    background: #e0e0e0;
+    box-shadow: 41px 41px 82px antiquewhite, -41px -41px 82px #ffffff;
+  }
+  .el1 {
+    padding: 20px;
+  }
+  h1 {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .child1 {
+    width: 30%;
+  }
+  .child2 {
+    display: flex;
+    width: 70%;
+    justify-content: end;
+  }
+  
+  /* style formulaire-profil*/
+  
+  .formprofil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 380px;
+    margin: 50px;
+    
+    background: #e0e0e0;
+    box-shadow: 41px 41px 82px antiquewhite, -41px -41px 82px #ffffff;
+  }
+  
+  .el2 {
+    padding: 5px;
+  }
+  
+  .messagealert {
+    text-align: center;
+    border: 1px solid black;
+    height: 80px;
+    padding: 30px;
+    margin-top: 10px;
+    background-color: rgb(211, 91, 91);
+    
+  }
+  
+  .color {
+    color: darkred;
+  }
+  
+  /*page index*/
+  .color1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #cccce0;
+    width: 100%;
+    height: 850px;
+    padding-top: 60px;
+  }
+  .bv {
+    color: rgb(3, 110, 153);
+    height: 60px;
+ 
+    background: linear-gradient(315deg, #d2d2e4, #b8b8c7);
+    box-shadow: -5px -5px 10px #cfcfda, 5px 5px 10px #d3d3de;
+  }
+  
+  .lien {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
+    width: 100%;
+  }
+  
+  .ellien {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 40px;
+    width: 300px;
+    color: rgb(3, 110, 153);
+   
+    background: linear-gradient(315deg, #babace, #cfcfe2);
+    box-shadow: -5px -5px 10px #cfcfda, 5px 5px 10px #d3d3de;
+  }
+  
+  .ellien:hover {
+   
+    background: linear-gradient(315deg, #e0e0eb, #bcbcc6);
+    box-shadow: -5px -5px 10px #c4c4df, 5px 5px 10px #bebed8;
+  }
+  
+  /* style footer */
+  footer {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: rgb(233, 213, 213);
+    align-items: center;
+    box-shadow: 41px 41px 82px antiquewhite, -41px -41px 82px rgb(231, 210, 210);
+  }
+  
+  table {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 10px;
+    white-space: nowrap;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(173, 162, 162);
+  }
+  
+  th {
+    background-color: rgb(101, 150, 163);
+  }
