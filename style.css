@@ -55,7 +55,6 @@
     align-items: center;
     width: 400px;
     height: 480px;
-    
     background: #e0e0e0;
     box-shadow: 41px 41px 82px antiquewhite, -41px -41px 82px #ffffff;
   }
@@ -66,13 +65,11 @@
     height: 40px;
     width: 300px;
     text-align: center;
-   
     background-color: rgb(92, 161, 194);
   }
   .submitclass {
     height: 40px;
     width: 250px;
-    
     background-color: rgb(40, 161, 241);
     color: #ffffff;
     cursor: pointer;
@@ -94,7 +91,6 @@
     justify-content: center;
     width: 400px;
     height: 570px;
-   
     background: #e0e0e0;
     box-shadow: 41px 41px 82px antiquewhite, -41px -41px 82px #ffffff;
   }
@@ -125,7 +121,6 @@
     width: 400px;
     height: 380px;
     margin: 50px;
-    
     background: #e0e0e0;
     box-shadow: 41px 41px 82px antiquewhite, -41px -41px 82px #ffffff;
   }
@@ -183,7 +178,6 @@
     height: 40px;
     width: 300px;
     color: rgb(3, 110, 153);
-   
     background: linear-gradient(315deg, #babace, #cfcfe2);
     box-shadow: -5px -5px 10px #cfcfda, 5px 5px 10px #d3d3de;
   }
