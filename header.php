@@ -13,7 +13,7 @@ include_once 'authentification.php';
     <title><?php if (isset($title)) {
                 echo $title;
             } else {
-                echo "Mon site";
+                echo "header";
             }  ?>
     </title>
     <link rel="stylesheet" href="style.css">
